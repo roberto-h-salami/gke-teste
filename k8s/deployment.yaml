@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gke-test-roberto
-        image: SEU_CONTAINER_REGISTRY/gke-test-roberto:latest
+        image: <+artifacts.primary.image>
         ports:
         - containerPort: 8080
 ---
